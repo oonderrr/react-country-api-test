@@ -1,9 +1,15 @@
+import Card from "./components/Card.jsx";
+import Navbar from "./components/Navbar.jsx";
+import HeroSection from "./components/HeroSection.jsx";
+
 function App() {
   return (
       <>
-          <h1 className="text-3xl font-bold underline">
-              Hello world!
-          </h1>
+          <div>
+              <Navbar />
+              <HeroSection />
+          </div>
+
       </>
   )
 }
